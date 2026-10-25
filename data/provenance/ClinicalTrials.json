@@ -1,0 +1,21 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "accession": "query.cond=Anaplastic Thyroid Cancer",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Anaplastic+Thyroid+Cancer",
+  "date_pulled": "2026-10-22T17:06:03+00:00",
+  "sample_count": 110,
+  "modality": "clinical trials",
+  "platform": "REST API v2 (JSON)",
+  "license": "Public domain (NLM)",
+  "raw_files": [
+    "literature/atc_clinical_trials.json"
+  ],
+  "checksums": {
+    "literature/atc_clinical_trials.json": "sha256:ce344e52bd1a9c1741225ebee311b6754b66f2d330235bff4304370011faff10"
+  },
+  "notes": "110 trials (110 with study_start_date): NCT ID, phase, interventions, status, dates.",
+  "qc_thresholds_applied": null,
+  "is_processed": false,
+  "status": "ok",
+  "records_with_date": 110
+}
